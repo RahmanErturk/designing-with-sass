@@ -1,0 +1,75 @@
+.line {
+  border-top: 1px solid $color-line;
+  margin: 36px 0px;
+}
+
+@media (min-width:320px) {
+  %form-base {
+    max-width: 100%;
+    padding: 0px 24px;
+    margin: 0px auto;
+  }
+}
+@media (min-width:480px) {
+  %form-base {
+    max-width: 75%;
+    padding: 0px 24px;
+    margin: 0px auto;
+  }
+}
+@media (min-width:768px) {
+  %form-base {
+    max-width: 50%;
+    padding: 0px 24px;
+    margin: 0px auto;
+  }
+}
+@media (min-width:1024px) {
+  %form-base {
+    max-width: 41.66%;
+    padding: 0px 24px;
+    margin: 0px auto;
+  }
+}
+@media (min-width:1280px) {
+  %form-base {
+    max-width: 33.33%;
+    padding: 0px 24px;
+    margin: 0px auto;
+  }
+}
+
+section {
+  @extend %form-base;
+  
+  .title {
+    h3 {
+      font-weight: 600;
+      font-size: 1.75rem;
+      letter-spacing: -.28px;
+      line-height: 2rem;
+      color: $color-primary;
+    }
+  }
+  button {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+    cursor: pointer;
+    padding: 10px;
+    transition: all .15s ease;
+    background-color: white;
+    font-size: 1rem;
+    letter-spacing: -.16px;
+    line-height: 1.5rem;
+    font-weight: 700;
+  }
+  button:hover {
+    background-color: $color-hover;
+    color: white;
+    border: 2px solid $color-hover;
+  }
+}

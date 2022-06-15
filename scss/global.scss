@@ -1,0 +1,18 @@
+$color-primary: #1a1a1a;
+$color-secondary: rgb(255, 105, 0);
+$color-hover: #66676e;
+$color-link: #6328e0;
+$color-line: #d0d1d3;
+$font-family: HelveticaNow,Helvetica,sans-serif;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+}
+
+html, body {
+  height: 100%;
+}

@@ -1,0 +1,41 @@
+.footer {
+  padding: 24px;
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0px;
+  
+    li {
+      padding: 16px;
+      list-style: none;
+      a {
+        position: relative;
+        text-decoration: none;
+        color: $color-primary;
+        font-size: .875rem;
+        letter-spacing: 0;
+        line-height: 1.25rem;
+        font-weight: 400;
+      }
+      a:hover {
+        border-bottom: 1px solid $color-primary;
+
+      }
+    }
+  }
+
+  .zalando-icon {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px 48px 0px;
+
+    a {
+      color: $color-secondary;
+      font-size: 1.5rem;
+      height: 1em;
+      width: 1em;
+    }
+  }
+}
